@@ -1,0 +1,22 @@
+{
+  "name": "query-strings",
+  "version": "1.0.0",
+  "description": "Display URL query strings on the page. Simple as that.",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc -w --removeComments ./app.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/entozoon/query-strings.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/entozoon/query-strings/issues"
+  },
+  "homepage": "https://github.com/entozoon/query-strings#readme",
+  "dependencies": {
+    "typescript": "^3.7.3"
+  }
+}
