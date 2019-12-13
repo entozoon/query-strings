@@ -6,9 +6,8 @@ export const config: Config = {
   namespace: "query-strings",
   outputTargets: [
     {
-      type: "www"
-      // dir: "./dist"
-      // baseUrl: "https://myapp.local/"
+      type: "www",
+      dir: "./dist"
     }
   ]
 };

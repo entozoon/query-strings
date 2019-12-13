@@ -3,7 +3,7 @@ import { Component, h } from "@stencil/core";
 @Component({
   tag: "query-strings",
   styleUrl: "query-strings.css",
-  shadow: true
+  shadow: false
 })
 export class QueryStrings {
   constructor() {
