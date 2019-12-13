@@ -1,22 +1,18 @@
 {
   "name": "query-strings",
-  "version": "1.0.0",
-  "description": "Display URL query strings on the page. Simple as that.",
-  "main": "index.js",
+  "private": true,
+  "version": "0.0.1",
+  "description": "Display query strings.",
   "scripts": {
-    "start": "tsc -w --removeComments ./app.ts"
+    "build": "stencil build",
+    "start": "stencil build --dev --watch --serve",
+    "test": "stencil test --spec --e2e",
+    "test.watch": "stencil test --spec --e2e --watchAll",
+    "generate": "stencil generate"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/entozoon/query-strings.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/entozoon/query-strings/issues"
-  },
-  "homepage": "https://github.com/entozoon/query-strings#readme",
   "dependencies": {
-    "typescript": "^3.7.3"
-  }
+    "@stencil/core": "^1.3.3",
+    "@stencil/router": "^1.0.1"
+  },
+  "license": "MIT"
 }
